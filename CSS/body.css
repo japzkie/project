@@ -1,0 +1,100 @@
+body{
+
+	margin-left:auto;
+	margin-right:auto;
+	background:url("../images/pink.jpg") no-repeat;
+	background-size:cover;
+	font-family:helvitica, arial, sans-serif;
+	font-size:15px;
+	
+	}
+	nav{
+		background-color:green;
+					}
+	li a{
+		color:rgb(17, 9, 9);
+					}	
+	li{
+	
+		margin:15px;
+		font-size:25px;
+		font-variant:small-caps;
+		font-weight: Bold;
+					}
+	
+	section{
+		background-color:rgb(120, 193, 173);
+		margin-top:10px;
+		padding:5px;
+					}
+	article{
+		background-color:rgb(228, 222, 222);
+		margin-top:5px;
+		padding:10px 15px;
+
+	
+					}	
+	.shop{
+		background-color:white;
+		margin-top:5px;
+		padding:10px 15px;
+		height: 400px;
+		 }
+	.shopmenu{
+			 list-style: none;
+			 text-align: center;
+			 font-weight: normal;
+		
+		 }
+	.header{
+		text-align: center;
+		 }
+		
+
+	
+		  
+	main{
+		width:640px;
+		float:left;
+		margin-bottom:10px;
+					}
+	aside{
+		background-color:pink;
+		width: 270px;
+		float:right;
+		padding: 20px;
+		margin-top: 10px;
+					}
+	footer{
+		clear:both;
+		background-color:red;
+		color:blue;
+		padding:5px 2opx
+		  }
+    p{
+		font-size: 20px;
+		  }
+
+.card-body img {
+	flex-shrink: 0;
+	min-width: 100%;
+	min-height: 100%
+	
+}
+.shope{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+padding-left: 15%;
+padding-right:15% ;
+
+}
+.nav_store{
+	font-size: 90%;
+	text-align: center;
+}
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
+
